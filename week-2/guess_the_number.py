@@ -48,7 +48,7 @@ def input_guess(guess):
     count -= 1
     print "Guess was " + guess
     guess = int(guess)
-    if count == 0:
+    if count == 0 and secret_number != guess:
         print "You ran out guesses, The number was " + str(secret_number)
         print
         new_game()
