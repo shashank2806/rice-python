@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Mini-project #6 - Blackjack
 try:
     import simplegui
